@@ -24,9 +24,8 @@
 }
 
 body {
-    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif !important;
+    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif;
     margin: 0;
-    direction: rtl;
 }
 
 
@@ -78,9 +77,6 @@ p,
 ul {
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p, span {
-    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif;
-}
 
 
 /*------------------ Navbar Start ------------------------ */
@@ -112,16 +108,16 @@ h1, h2, h3, h4, h5, h6, p, span {
     right: unset;
     left: 0;
 }
-.navbar-nav{
-    margin-right: 0 !important;
-}
+
 .navbar-light .navbar-nav .nav-link {
-    padding: 15px;
+    padding: 20px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     margin: 0;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    font-size: 12px;
+    /*   margin-top: -9px;*/
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -191,13 +187,13 @@ h1, h2, h3, h4, h5, h6, p, span {
     margin-top: 100px;
     margin-bottom: 25px;
     text-transform: capitalize;
-    /* font-family: Arial, Raleway-Regular, sans-serif; */
+    font-family: Arial, Raleway-Regular, sans-serif;
 }
 
 .home .home-content h1 {
     font-size: 63px;
-    font-weight: 500;
-    /* font-family: Raleway-Bold; */
+    font-weight: 600;
+    font-family: Raleway-Bold;
     margin-bottom: 25px;
     /* text-transform: unset; */
 }
@@ -206,12 +202,12 @@ h1, h2, h3, h4, h5, h6, p, span {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 5px;
-    padding: 0 80px;
+    padding: 0 30px;
     text-transform: capitalize;
     font-size: 24px;
     text-transform: capitalize;
     line-height: 1.1;
-    /* font-family: Arial, Raleway-Regular, sans-serif; */
+    font-family: Arial, Raleway-Regular, sans-serif;
 }
 
 .home .img-store {
@@ -246,7 +242,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .about .about-intro h2 {
-    /* font-family: Raleway-Bold; */
+    font-family: Raleway-Bold;
     color: #4bb8e6;
     font-weight: 600;
     margin-top: 20px;
@@ -255,7 +251,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .about .about-intro p {
-    /* font-family: Raleway-Regular; */
+    font-family: Raleway-Regular;
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
@@ -278,7 +274,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .about .our-vision h4 {
-    /* font-family: Raleway-Bold; */
+    font-family: Raleway-Bold;
     color: white;
     padding-top: 1em;
     /* font-size: 19px; */
@@ -291,7 +287,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 .about .our-vision p {
     font-size: 14px;
-    /* font-family: Raleway-Regular; */
+    font-family: Raleway-Regular;
     margin: 0 0 10px;
     line-height: 1.8;
 }
@@ -367,16 +363,14 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 .our-app h2 {
     text-align: center;
-    /* font-family: Raleway-Bold; */
+    font-family: Raleway-Bold;
     color: #4bb8e6;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 50px;
 }
-.owl-carousel{
-    direction: ltr;
-}
+
 
 /*------------------ Our App End ------------------------ */
 
@@ -385,9 +379,9 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 .contact {
     margin-top: 135px;
-    background: #333;
         padding: 40px 0;
 
+    background: #333;
 }
 
 .contact .logo-img {}

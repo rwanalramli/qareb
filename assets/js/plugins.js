@@ -42,7 +42,7 @@ $(document).ready(function() {
                         nav:true
                     },
                     600:{
-                        items:1,
+                        items:3,
                         nav:false
                     },
                     1000:{
