@@ -24,9 +24,22 @@
 }
 
 body {
-    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif;
+    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif !important;
     margin: 0;
+
 }
+
+nav ul li {
+    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif;
+    font-size: x-large;
+    /* direction: ltr; */
+    font-weight: 600;
+    /* float: right; */
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif !important;
+}
+
 
 
 /* Start Scroll To Top Section */
@@ -99,9 +112,13 @@ ul {
     display: block;
 }
 
+.navbar-nav {margin-right: 0px !important; }
+
 .bg-light {
     background-color: #fff!important;
     height: 57px;
+    direction: rtl;
+    font-family: ArbFONTS-JF-Flat-Regular, Andalus, serif;
 }
 
 .dropdown-menu.last {
@@ -114,9 +131,9 @@ ul {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     margin: 0;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 4px;
-    font-size: 12px;
+    /* letter-spacing: 4px; */
+    font-size: 18px;
+    /* float: right; */
     /*   margin-top: -9px;*/
 }
 
@@ -166,6 +183,7 @@ ul {
 
 .home {
     margin-top: 78px;
+    direction: rtl;
 }
 
 .home .home-img {
@@ -187,13 +205,11 @@ ul {
     margin-top: 100px;
     margin-bottom: 25px;
     text-transform: capitalize;
-    font-family: Arial, Raleway-Regular, sans-serif;
 }
 
 .home .home-content h1 {
     font-size: 63px;
     font-weight: 600;
-    font-family: Raleway-Bold;
     margin-bottom: 25px;
     /* text-transform: unset; */
 }
@@ -207,7 +223,6 @@ ul {
     font-size: 24px;
     text-transform: capitalize;
     line-height: 1.1;
-    font-family: Arial, Raleway-Regular, sans-serif;
 }
 
 .home .img-store {
@@ -227,6 +242,7 @@ ul {
 .about {
     padding: 50px 0;
     position: relative;
+    direction: rtl;
 }
 
 .about .about-img {}
@@ -242,7 +258,6 @@ ul {
 }
 
 .about .about-intro h2 {
-    font-family: Raleway-Bold;
     color: #4bb8e6;
     font-weight: 600;
     margin-top: 20px;
@@ -251,7 +266,6 @@ ul {
 }
 
 .about .about-intro p {
-    font-family: Raleway-Regular;
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
@@ -274,7 +288,6 @@ ul {
 }
 
 .about .our-vision h4 {
-    font-family: Raleway-Bold;
     color: white;
     padding-top: 1em;
     /* font-size: 19px; */
@@ -287,7 +300,6 @@ ul {
 
 .about .our-vision p {
     font-size: 14px;
-    font-family: Raleway-Regular;
     margin: 0 0 10px;
     line-height: 1.8;
 }
@@ -301,33 +313,45 @@ ul {
 .services {
     padding-top: 78px;
 }
+.services h2 {
+    text-align: center;
+    color: #4bb8e6;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
 
 .services .col-md-4 {
     padding: 0px;
 }
 
 .services .service {
+    /* text-align: center !important; */
     /* box-sizing: border-box; */
     margin-top: 30px;
     margin-bottom: 30px;
+    /* margin: 30px auto; */
 }
 
 .services .service .outer-border {
-    height: 329px;
-    width: 330px;
+    height: 150px;
+    width: 150px;
     background: #4bb8e6;
     border: 5px solid #4bb8e6;
     border-radius: 50%;
     text-align: center;
+    margin-right: 50%;
+    margin-left: calc(50% - 80px);
     /* margin: auto; */
     /* padding: 0 5px 5px 0; */
     /* box-sizing: border-box; */
 }
 
 .services .service .outer-border .white-border {
-    height: 320px;
-    width: 320px;
-    align-self: baseline;
+    height: 140px;
+    width: 140px;
+    /* align-self: baseline; */
     border: 2px solid #fff;
     border-radius: 50%;
     background: #4bb8e6;
@@ -338,9 +362,10 @@ ul {
 }
 
 .services .service .outer-border .white-border img {
-    max-width: 80%;
-    width: 50%;
-    margin-top: calc(100% - 226px);
+    max-width: 60%;
+    /* width: 50%; */
+    margin-top: calc(100% - 109px);
+    /* line-height: 140px; */
     /* display: none; */
 }
 
@@ -363,7 +388,6 @@ ul {
 
 .our-app h2 {
     text-align: center;
-    font-family: Raleway-Bold;
     color: #4bb8e6;
     font-size: 24px;
     text-transform: uppercase;
